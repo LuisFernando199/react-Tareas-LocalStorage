@@ -1,0 +1,29 @@
+.TaskForm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.TaskInput {
+    width: 15rem;
+    font-size: 18px;
+    background-color: rgb(249, 243, 234);
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid rgb(5, 5, 129);
+    outline: none;
+}
+
+.TaskButton {
+    padding: 16px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: rgb(6, 8, 151);
+    color: rgb(250, 242, 231);
+    text-transform: capitalize;
+}

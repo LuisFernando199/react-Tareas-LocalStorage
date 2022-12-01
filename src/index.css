@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgba(175, 57, 57, 0.831);
+    font-family:'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: medium;
+
+}
+
+html,
+body {
+    color: white;
+    background-color: #1b1b20;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+}
+
+.AppTask {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Contenedeor lsita tareas*/
+.TaskList {
+   background-color: rgb(70, 70, 70);
+   width: 30rem;
+   min-height: 30rem;
+   padding: 2rem;
+   margin: 2rem;
+   border: 1px solid red;
+   border-radius: 8%;
+   
+}

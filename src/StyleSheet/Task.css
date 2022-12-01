@@ -1,0 +1,40 @@
+.TaskContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b1b20;
+    width: 25rem;
+    min-height: 2rem;
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    border-radius: 3%;
+    border: 2px solid rgb(255, 89, 89);
+    cursor: pointer;
+}
+
+.TaskText {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    overflow-wrap: anywhere;
+}
+
+.TaskIconContent{}
+
+.TaskIcon {
+    width: 2rem;
+    height: 2rem;
+    margin: 25px ;
+    color: rgb(197, 144, 144);
+}
+
+/*PAra completasas */
+
+.TaskContainer.complet {
+  background-color: pink;
+    text-decoration: line-through;
+    color: greenyellow;
+}
+
